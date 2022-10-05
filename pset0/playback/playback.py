@@ -1,0 +1,3 @@
+# Gets the sentence from user and replace spaces with ...
+speed = input().replace(" ", "...")
+print(f'{speed}')
