@@ -1,0 +1,12 @@
+take an input as an command-line argument
+chech how many elements in the command line
+check if extension of both files are the same
+
+open the image
+open the shirt
+
+get the size of the shirt
+resize muppet image to fit shirt
+paste shirt in muppet
+
+create output image

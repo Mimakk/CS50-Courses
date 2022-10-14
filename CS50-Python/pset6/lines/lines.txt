@@ -1,0 +1,19 @@
+take input from terminal using argv
+
+if length of argument is 1 print too few arguments
+and exit
+elif length of argument is < 2 print too many command-line arguments
+and exit
+
+if argumant does not end with .py print not a python file
+and exit
+
+try
+open the file taken from terminal
+total number of lines = 0
+for every line
+    if line starts with # or " " do not add any line
+    else add 1 to line number
+except FileNotFoundError
+print file does not exist
+and exit

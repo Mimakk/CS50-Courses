@@ -1,0 +1,6 @@
+take ip from user
+
+----> the format is #.#.#.#
+each number (#) shoul be in between 0 and 255
+if so return true
+else return false

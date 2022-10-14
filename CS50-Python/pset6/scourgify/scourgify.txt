@@ -1,0 +1,16 @@
+take two command-line argument
+
+if len sys.argv < 3 print Too few command-line arguments and exit
+
+if len sys.argv > 3 print Too many command-line arguments and exit
+
+try:
+    open and read the sys.argv[1]
+    seperate the values with comma and assign them as name and house
+    seperate name with comma and assign them as last and first
+
+    open and write the sys.argv[2]
+    in order first, last, home
+
+except FileNotFound error:
+    Could not read invalid_file.csv and exit

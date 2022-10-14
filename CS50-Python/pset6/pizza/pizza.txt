@@ -1,0 +1,19 @@
+get command-line input from user by sys.argv
+
+if argv = 1 Too few command-line arguments and exit
+
+if argv > 2 Too many command-line arguments and exit
+
+if input does not contain .csv Not a CSV file and exit
+
+try:
+    table = []
+    with open(sys.argv[1]) as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            table.append({"name": row["name"], "home": row["home"]})
+    print(tabulate(table, headers="firstrow", tablefmt="grid"))
+
+except FileNotFoundError:
+    print file does not exist and exit
+
