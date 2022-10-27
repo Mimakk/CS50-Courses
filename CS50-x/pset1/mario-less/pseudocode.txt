@@ -1,0 +1,3 @@
+Take hight from user
+check gor the conditions (1<= x <= 8)
+for every iteration print that number of #
